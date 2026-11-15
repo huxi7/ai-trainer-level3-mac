@@ -1,0 +1,19 @@
+{
+  "source_total": 2165,
+  "unique_source_ids": 2165,
+  "deduplicated_total": 2164,
+  "removed_exact_duplicates": 1,
+  "answer_conflicts": [],
+  "same_stem_different_options": [
+    "45200",
+    "45201"
+  ],
+  "set_counts": {
+    "564": 11,
+    "558": 11,
+    "548": 11,
+    "530": 1655,
+    "529": 246,
+    "528": 231
+  }
+}

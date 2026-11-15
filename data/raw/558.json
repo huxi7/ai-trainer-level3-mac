@@ -1,0 +1,233 @@
+{
+  "set_id": 558,
+  "heading": "人工3级近期新增高频理论题2",
+  "expected": 11,
+  "records": [
+    {
+      "index": 0,
+      "id": "59095",
+      "type": "1",
+      "title": "在智能零售系统中，哪种技术可以实现无人收银？（）",
+      "content": "",
+      "option_type": "0",
+      "correct_answer": [
+        "A"
+      ],
+      "answer_type": "0",
+      "parsing": "<p style=\"white-space: normal;\"><span style=\"text-wrap-mode: nowrap;\">A 人脸识别：</span></p><p style=\"white-space: normal;\"><span style=\"text-wrap-mode: nowrap;\">无人超市 / 无人收银常用，通过人脸完成身份核验、</span></p><p style=\"white-space: normal;\"><span style=\"text-wrap-mode: nowrap;\">绑定账户，自助扣款，不需要接触设备，适合零售场景。</span></p><p style=\"white-space: normal;\"><span style=\"text-wrap-mode: nowrap;\">B 指纹识别：</span></p><p style=\"white-space: normal;\"><span style=\"text-wrap-mode: nowrap;\">需要手指按压接触，收银场景操作不便，</span></p><p style=\"white-space: normal;\"><span style=\"text-wrap-mode: nowrap;\">很少用于</span><span style=\"white-space: nowrap;\">无人收银。</span></p><p style=\"white-space: normal;\"><span style=\"text-wrap-mode: nowrap;\">C 虹膜识别：识别精度极高，但设备成本昂贵，</span></p><p style=\"white-space: normal;\"><span style=\"text-wrap-mode: nowrap;\">多用于安防门禁，不适合零售收银。</span></p><p style=\"white-space: normal;\"><span style=\"text-wrap-mode: nowrap;\">D 掌纹识别：需要手掌扫描，设备成本高，</span></p><p style=\"white-space: normal;\"><span style=\"text-wrap-mode: nowrap;\">普及度低，几乎不用在无人零售。</span></p><p style=\"white-space: normal;\"><span style=\"text-wrap-mode: nowrap;\"><br/></span></p><p style=\"white-space: normal;\"><span style=\"text-wrap-mode: nowrap;\">记忆要点</span></p><p style=\"white-space: normal;\"><span style=\"text-wrap-mode: nowrap;\">无人零售无人收银首选人脸识别，非接触、部署成本适中。</span></p>",
+      "point": "1.00",
+      "option": {
+        "A": "人脸识别",
+        "B": "指纹识别",
+        "C": "虹膜识别",
+        "D": "掌纹识别"
+      }
+    },
+    {
+      "index": 1,
+      "id": "59097",
+      "type": "1",
+      "title": "在利用分析工具进行数据分析后，以下哪项不属于输出分析报告的内容？（）",
+      "content": "",
+      "option_type": "0",
+      "correct_answer": [
+        "D"
+      ],
+      "answer_type": "0",
+      "parsing": "<p>A 数据摘要：分析报告开头，简要概括数据集基本情况，属于报告内容。</p><p>B 分析结论：数据分析得出的结果，是报告核心部分。</p><p>C 优化建议：基于分析结论给出改进方案，属于报告内容。</p><p>D 产品设计原型：属于产品设计阶段产出物，是 UI / 产品原型图，不属于数据分析报告的输出内容。</p>",
+      "point": "1.00",
+      "option": {
+        "A": "数据摘要",
+        "B": "分析结论",
+        "C": "优化建议",
+        "D": "产品设计原型"
+      }
+    },
+    {
+      "index": 2,
+      "id": "59099",
+      "type": "1",
+      "title": "以下哪个选项是多道操作系统不可缺少的硬件支持（）。",
+      "content": "",
+      "option_type": "0",
+      "correct_answer": [
+        "B"
+      ],
+      "answer_type": "0",
+      "parsing": "<p>A 打印机：属于外部输出设备，多道程序运行不需要打印机。</p><p>B 中断机构：多道程序核心硬件。依靠中断，CPU 可以暂停当前程序、切换运行其他程序，实现多个程序并发执行，是多道操作系统必备硬件。</p><p>C 硬盘：存储设备，早期多道系统也可不用硬盘。</p><p>D 鼠标：人机交互外设，不是多道程序运行必需。</p>",
+      "point": "1.00",
+      "option": {
+        "A": "打印机",
+        "B": "中断机构",
+        "C": "硬盘",
+        "D": "鼠标"
+      }
+    },
+    {
+      "index": 3,
+      "id": "59101",
+      "type": "1",
+      "title": "在labelme工具中，以下哪个快捷键是指保存标注结果（）。",
+      "content": "",
+      "option_type": "0",
+      "correct_answer": [
+        "B"
+      ],
+      "answer_type": "0",
+      "parsing": "<p data-pm-slice=\"0 0 []\">A Ctrl+U：labelme 无此常用标注快捷键。</p><p>B Ctrl+S：保存标注，生成 json 标注文件。</p><p>C Ctrl+D：不是保存，D 单独按键是切换下一张图片。</p><p>D Ctrl+O：打开图片文件。</p><p>记忆要点</p><p>绝大多数软件保存快捷键通用：Ctrl+S。</p>",
+      "point": "1.00",
+      "option": {
+        "A": "Ctrl+U",
+        "B": "Ctrl+S",
+        "C": "Ctrl+D",
+        "D": "Ctrl+O"
+      }
+    },
+    {
+      "index": 4,
+      "id": "59103",
+      "type": "1",
+      "title": "带有缺失值的数据记录的目标标签主要集中于某一类或几类，如果删除这些数据记录将使对应分类的数据样本丢失大量特征信息，导致模型（）或分类不准确。",
+      "content": "",
+      "option_type": "0",
+      "correct_answer": [
+        "C"
+      ],
+      "answer_type": "0",
+      "parsing": "<p>A 宕机：程序 / 系统停止运行，和样本删减无关。</p><p>B 分离：不属于机器学习模型相关术语。</p><p>C 过拟合：删掉大量某类样本，数据集样本分布失衡，模型学到的特征片面，容易出现过拟合，分类效果变差。</p><p>D 孤立：一般指孤立点（异常数据），不是模型产生的问题。</p>",
+      "point": "1.00",
+      "option": {
+        "A": "宕机",
+        "B": "分离",
+        "C": "过拟合",
+        "D": "孤立"
+      }
+    },
+    {
+      "index": 5,
+      "id": "59110",
+      "type": "1",
+      "title": "批次是模型训练时（）中使用的样本集合的数量。",
+      "content": "",
+      "option_type": "0",
+      "correct_answer": [
+        "A"
+      ],
+      "answer_type": "0",
+      "parsing": "<p>批次（batch）指模型一次迭代过程里用来计算损失、</p><p>更新参数的样本数量。</p><p><br/></p><p>A. 一次迭代 ：符合定义，每一轮迭代取一个批次的数据训练</p><p>B. 二次递归：递归和模型迭代训练无关</p><p>C. 多次迭代：错误，不是多次迭代共用一批样本</p><p>D. 一次递归：递归不属于训练批次相关概念</p><p><br/></p><p>补充区分：Epoch（轮次）是把全部数据集完整跑一遍，</p><p>内部会分成多个 batch 做多次迭代。</p>",
+      "point": "1.00",
+      "option": {
+        "A": "一次迭代",
+        "B": "二次递归",
+        "C": "多次迭代",
+        "D": "一次递归"
+      }
+    },
+    {
+      "index": 6,
+      "id": "59112",
+      "type": "1",
+      "title": "AI智能安防系统中，哪种技术可以用于实时监控？（）",
+      "content": "",
+      "option_type": "0",
+      "correct_answer": [
+        "B"
+      ],
+      "answer_type": "0",
+      "parsing": "<p>A. 声音识别：主要用于音频信号识别，不是安防实时监控的主流手段。</p><p>B. 视频分析：AI 智能安防实时监控，依托摄像头视频流做视频分析，检测入侵、越界、异常行为等。</p><p>C. 无线电侦测：用于探测无线信号，不属于常规安防监控。</p><p>D. 生物识别：多用于身份核验（人脸、指纹），一般不做持续实时监控。</p>",
+      "point": "1.00",
+      "option": {
+        "A": "声音识别",
+        "B": "视频分析",
+        "C": "无线电侦测",
+        "D": "生物识别"
+      }
+    },
+    {
+      "index": 7,
+      "id": "59114",
+      "type": "1",
+      "title": "衡量声音高低的指标是（）",
+      "content": "",
+      "option_type": "0",
+      "correct_answer": [
+        "B"
+      ],
+      "answer_type": "0",
+      "parsing": "<p>A. 幅度：对应声音响度大小。</p><p>B. 频率：频率决定音调高低，频率越高，声音音调越高。</p><p>C. 分贝：是声音响度的计量单位。</p><p>D. 速度：指声音传播快慢，和声音高低无关。</p>",
+      "point": "1.00",
+      "option": {
+        "A": "幅度",
+        "B": "频率",
+        "C": "分贝",
+        "D": "速度"
+      }
+    },
+    {
+      "index": 8,
+      "id": "59116",
+      "type": "1",
+      "title": "引导用户自发参与是指在产品中设计相应的日志记录或（），引导用户主动将数据结果反馈给系统。",
+      "content": "",
+      "option_type": "0",
+      "correct_answer": [
+        "A"
+      ],
+      "answer_type": "0",
+      "parsing": "<p>A. 操作步骤：引导用户自发参与采集数据，产品会设计日志记录、记录用户操作步骤，让用户主动反馈使用数据给系统。</p><p>B. 程序结果：是程序运行输出内容，不是用来引导用户反馈的设计项。</p><p>C. 系统崩溃：属于故障，不是主动引导设计。</p><p>D. 全部进程：是后台运行程序，和用户主动反馈无关。</p><p><br/></p>",
+      "point": "1.00",
+      "option": {
+        "A": "操作步骤",
+        "B": "程序结果",
+        "C": "系统崩溃",
+        "D": "全部进程"
+      }
+    },
+    {
+      "index": 9,
+      "id": "59118",
+      "type": "1",
+      "title": "手势识别可以被视为（）理解人体语言的方式。",
+      "content": "",
+      "option_type": "0",
+      "correct_answer": [
+        "B"
+      ],
+      "answer_type": "0",
+      "parsing": "<p>A. 机器人：是硬件载体，不是手势识别的主体。</p><p>B. 计算机：手势识别属于计算机视觉技术，是计算机理解人体肢体语言的方式。</p><p>C. 机械：仅指机械结构，不具备识别理解能力。</p><p>D. 动物：和该技术无关。</p>",
+      "point": "1.00",
+      "option": {
+        "A": "机器人",
+        "B": "计算机",
+        "C": "机械",
+        "D": "动物"
+      }
+    },
+    {
+      "index": 10,
+      "id": "59105",
+      "type": "2",
+      "title": "Mindspore框架支持哪些损失函数？（）",
+      "content": "",
+      "option_type": "0",
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer_type": "0",
+      "parsing": "<p data-pm-slice=\"0 0 []\">A. MSE：均方误差损失，回归任务常用</p><p>B. Cross-entropy：交叉熵损失，分类任务常用</p><p>C. KL-divergence：KL 散度，用来衡量两个概率分布差异</p><p>D. Huber loss：Huber 损失，融合 MSE 与 MAE，对异常值更鲁棒</p><p>E. MAE：平均绝对误差损失，回归任务使用</p>",
+      "point": "1.00",
+      "option": {
+        "A": "MSE",
+        "B": "Cross-entropy",
+        "C": "KL-divergence",
+        "D": "Huber loss",
+        "E": "MAE"
+      }
+    }
+  ],
+  "errors": []
+}
