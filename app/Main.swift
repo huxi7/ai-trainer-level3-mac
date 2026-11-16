@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖截图、OCR、Matcher、外观及匹配设置；监听右键。
- * [OUTPUT]: 透明答案、可选匹配度和诊断截图；菜单提供设置和权限提示。
+ * [OUTPUT]: 按设定时长显示透明答案；提供匹配度、诊断截图与设置菜单。
  * [POS]: app 的交互入口；所有 AppKit 窗口操作回到主线程。
  * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
  */
@@ -176,7 +176,7 @@ final class AssistantDelegate: NSObject, NSApplicationDelegate {
         showMessage(answer, at: point)
     }
 
-    private func showMessage(_ message: String, at point: NSPoint, duration: TimeInterval = 2.5,
+    private func showMessage(_ message: String, at point: NSPoint, duration: TimeInterval? = nil,
                              startup: Bool = false) {
         panel?.orderOut(nil)
         let font = startup ? NSFont.systemFont(ofSize: 14, weight: .regular) : textStyle.font
@@ -207,7 +207,7 @@ final class AssistantDelegate: NSObject, NSApplicationDelegate {
         panel = window
         displayNumber += 1
         let shown = displayNumber
-        DispatchQueue.main.asyncAfter(deadline: .now() + duration) { [weak self] in
+        DispatchQueue.main.asyncAfter(deadline: .now() + (duration ?? textStyle.displayDuration)) { [weak self] in
             if self?.displayNumber == shown { self?.panel?.orderOut(nil) }
         }
     }
